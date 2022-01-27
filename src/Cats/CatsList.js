@@ -1,4 +1,5 @@
 import Cat from './Cat';
+import './Cats.css';
 
 export default function CatsList(props) {
   return <div className='cats-list'>

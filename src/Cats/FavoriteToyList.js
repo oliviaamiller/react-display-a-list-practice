@@ -1,4 +1,4 @@
-// import FavoriteToy from './FavoriteToy';
+import './Cats.css';
 
 export default function FavoriteToyList(props) {
   return <div className='favorite-toy-list'>

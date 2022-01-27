@@ -1,4 +1,5 @@
 import Recipe from './Recipe';
+import './Recipes.css';
 
 export default function RecipesList(props) {
   return <div className='recipes-list'>

@@ -2,9 +2,9 @@
 export const cats = [
   {
     name: 'rose',
-    img: 'http://www.placekitten.com/100/100',
+    img: 'http://www.placekitten.com/800/800',
     age: 2,
-    color: 'brown tabby',
+    color: 'orange tabby',
     favoriteToy: {
       type: 'ball',
       hasCatNip: 'yes'
@@ -13,7 +13,7 @@ export const cats = [
 
   {
     name: 'ernie',
-    img: 'http://www.placekitten.com/100/200',
+    img: 'http://www.placekitten.com/600/600',
     age: 13,
     color: 'gray tabby',
     favoriteToy: {
@@ -24,7 +24,7 @@ export const cats = [
 
   {
     name: 'falafel',
-    img: 'http://www.placekitten.com/200/100',
+    img: 'http://www.placekitten.com/550/550',
     age: 5,
     color: 'calico',
     favoriteToy: {

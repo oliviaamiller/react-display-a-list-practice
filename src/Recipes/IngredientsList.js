@@ -1,4 +1,5 @@
 import Ingredient from './Ingredient';
+import './Recipes.css';
 
 export default function IngredientsList(prop) {
   return <div className='ingredients-list'>
