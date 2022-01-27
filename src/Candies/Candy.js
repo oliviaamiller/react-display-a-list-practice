@@ -1,4 +1,6 @@
-export default function Candy() {
-  return <div></div>;
+export default function Candy(props) {
+  return <div className='candy'>
+    <div>{props.candy}</div>
+  </div>;
 }
 
