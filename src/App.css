@@ -1,6 +1,11 @@
+html, body, #root, .App {
+  height: 100%;
+}
+
 .App {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin: 4rem;
 }

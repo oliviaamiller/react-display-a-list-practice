@@ -1,3 +1,5 @@
+import './Sweaters.css';
+
 export default function Sweater({ fiber, style, timesWorn }) {
   return <div className='sweater'>
     <p>fiber: {fiber}</p>
@@ -5,4 +7,5 @@ export default function Sweater({ fiber, style, timesWorn }) {
     <p>times worn: {timesWorn}</p>
   </div>;
 }
+
 
