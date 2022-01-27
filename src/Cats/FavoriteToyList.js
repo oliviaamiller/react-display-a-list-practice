@@ -1,9 +1,8 @@
-import FavoriteToy from './FavoriteToy';
+// import FavoriteToy from './FavoriteToy';
 
-export default function FavoriteToyList({ favoriteToy }) {
+export default function FavoriteToyList(props) {
   return <div className='favorite-toy-list'>
-    { favoriteToy.map((toy, i) =>
-      <FavoriteToy key={`${toy.type}-${i}`}
-        {...toy} />) }
+    <p>favorite toy: {props.favoriteToy.type}</p>
+    <p>toy has catnip? {props.favoriteToy.hasCatNip}</p>
   </div>;
 }
