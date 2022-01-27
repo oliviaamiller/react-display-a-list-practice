@@ -12,7 +12,6 @@ import RecipesList from './Recipes/RecipesList';
 function App() {
   return (
     <div className="App">
-        Render all your lists here. Pass the arrays as props.
       <CandyList candies={candies} />
       <SweaterList sweaters={sweaters} />
       <CatsList cats={cats} />

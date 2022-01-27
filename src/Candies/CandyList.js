@@ -1,4 +1,5 @@
 import Candy from './Candy';
+import './Candies.css';
 
 export default function CandyList(props) {
   return <div className='candy-list'>

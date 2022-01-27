@@ -1,0 +1,19 @@
+.candy-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border: rgb(255, 158, 208) 6px dotted;
+    padding: 10px;
+    height: 200px;
+}
+
+.candy {
+    color: rgb(255, 158, 208);
+    text-transform: uppercase;
+    font-family: 'Ultra';
+    letter-spacing: .2rem;
+    font-size: 20px;
+    
+}
