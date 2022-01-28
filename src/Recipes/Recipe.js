@@ -4,7 +4,7 @@ import './Recipes.css';
 
 export default function Recipe({ title, rating, ingredients }) {
   return <div className='recipe'>
-    <p>{title}</p>
+    <p className='recipe-title'>{title}</p>
     <p>{rating}</p>
     <IngredientsList ingredients={ingredients} />
   </div>;
