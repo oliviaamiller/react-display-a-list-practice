@@ -1,0 +1,35 @@
+.cats-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: rgb(6, 28, 84) 7px solid;
+    background-color: rgb(250,70,22);
+    padding: 20px;
+    margin: 40px;
+}
+
+.kitty {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.cat-img {
+    height: 200px;
+    border: rgb(255, 202, 251) 3px solid;
+}
+
+.kitty-name {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.kitty-info {
+   color: rgb(6, 28, 84);
+   background-color: rgb(255, 238, 145);
+   height: 200px;
+   width: 150px;
+   border: rgb(255, 183, 210) 3px solid;
+   padding:0px 10px;
+}
